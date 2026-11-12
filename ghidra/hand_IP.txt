@@ -1,0 +1,12 @@
+0x060023e6 func ip_WaitVdp2Handshake hand provisional carried from Black Dawn identical bytes: sets flag then waits until cleared
+0x0600245c func ip_FillShorts hand provisional carried from Black Dawn identical bytes: fills halfword buffer with value
+0x060024d8 func ip_SetVdp2ColorOffsetAll hand provisional carried from Black Dawn identical bytes: writes same value to three vdp2 offset regs
+0x06002510 func ip_FadeVdp2ColorOffset hand provisional carried from Black Dawn identical bytes: steps colour offset between limits waiting each step
+0x06002594 func ip_InitVdp2Display hand provisional carried from Black Dawn identical bytes: clears vdp2 table, copies 8 regs, sets display regs
+0x0600270a func ip_SetVdp2RegBitsByCase hand provisional carried from Black Dawn identical bytes: bit-field register write by case index
+0x06002100 func ip_Proc_2100 hand provisional structural name: IPL helper, 268 bytes, unread
+0x060026e4 func ip_Proc_26e4 hand provisional structural name: IPL helper, 38 bytes, unread
+0x06002e5e func ip_Proc_2e5e hand provisional structural name: IPL helper, 48 bytes, unread
+0x06002ea6 func ip_Proc_2ea6 hand provisional structural name: IPL helper, 194 bytes, unread
+0x06002fb8 func ip_Proc_2fb8 hand provisional structural name: IPL helper, 10 bytes, unread
+0x06002fe0 func ip_Proc_2fe0 hand provisional structural name: IPL helper, 28 bytes, unread

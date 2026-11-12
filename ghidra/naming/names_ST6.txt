@@ -1,0 +1,3 @@
+0604268c stage_DrawWarningBanner pool holds the WARNING text
+06042750 stage_DrawDestroyedBanner pool holds the DESTROYED text
+06042b08 stage_DrawCompleteBanner pool holds the COMPLETE text

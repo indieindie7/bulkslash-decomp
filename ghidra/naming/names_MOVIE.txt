@@ -1,0 +1,2 @@
+0602ab5c cpk_ReportSystemStartMsg pool holds the cpkd_sys_start message string
+0602abb0 cpk_ReportReturnCountMsg pool holds the cnt_return_s message string

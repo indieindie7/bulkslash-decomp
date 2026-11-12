@@ -1,0 +1,23 @@
+06004988 stage_LoadStageOverlay indexes the ALL.ST1-7 file name table (16-byte entries), loads the stage file and uses SMPC
+06004b30 file_LoadJpatAndKanjiFont copies the JPAT.BIN and KANJI.FON file names and loads them
+060053f8 screen_LoadScreenOverlayFile pool holds SEL_DEMO.ALL, END.ALL and RANK.ALL file names
+06005788 movie_LoadMovieOverlay pool holds the MOVIE.BIN file name
+06007d00 bup_AccessSaveFileA references the backup save name BUL_SLA__01
+06008374 bup_AccessSaveFileB references the backup save name BUL_SLA__01
+0600dee0 cdc_ReadStatusReg short CD block register read (20 bytes, cdblock address in pool)
+0600def4 cdc_SetBitAndNotify carried from BD 0603d83c identical instruction stream [carry BD 0603d83c]
+0600df24 cdc_WriteReg short CD block register store (16 bytes, cdblock address in pool)
+0600df5c cdc_OrReg carried from BD 0603d8a4 identical instruction stream [carry BD 0603d8a4]
+0600dfa4 cdc_ReadWords carried from BD 0603d8ec identical instruction stream [carry BD 0603d8ec]
+0600e040 cdc_ExecCommandWait carried from BD 0603d988 identical instruction stream [carry BD 0603d988]
+0600e100 cdc_PollHirqBits carried from BD 0603da48 identical instruction stream [carry BD 0603da48]
+0600e134 cdc_WriteCommandRegs carried from BD 0603da7c identical instruction stream [carry BD 0603da7c]
+0600e170 cdc_ReadResponseRegs carried from BD 0603dab8 identical instruction stream [carry BD 0603dab8]
+06014a34 rtl_NopB carried from BD 06034d64 identical instruction stream [carry BD 06034d64]
+06014a3c rtl_NopB carried from CG 0605fd68 identical instruction stream [carry CG 0605fd68]
+06014a3e rtl_NopD carried from CG 0605fd6a identical instruction stream [carry CG 0605fd6a]
+06014ab4 rtl_CopyBlocks64B copies 16 words per loop iteration with a countdown (block copy)
+06014b34 rtl_RunExitHandlers walks a function pointer table downwards calling each entry, then calls a final routine
+06014ba0 rtl_SignedDivide carried from CG 0605fe34 identical instruction stream [carry CG 0605fe34]
+06014cc4 rtl_UnsignedDivide carried from CG 06060f6c identical instruction stream [carry CG 06060f6c]
+06015290 heap_StackCollisionError references the Heap and stack collision message

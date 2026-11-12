@@ -1,0 +1,2 @@
+060423fc stage_DrawDestroyedBanner pool holds the DESTROYED text
+060427b4 stage_DrawCompleteBanner pool holds the COMPLETE text

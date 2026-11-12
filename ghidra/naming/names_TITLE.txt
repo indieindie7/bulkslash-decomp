@@ -1,0 +1,4 @@
+060271c4 title_DrawGameLevelOption prints the NORMAL and HARD difficulty choices to VDP2
+0602746c title_DrawAudioModeOption prints the STEREO and MONORAL audio choices to VDP2
+06027f3c title_LoadTitleOverlayFile pool holds the TITLE.ALL file name
+0602fc6c title_DrawConfigurationMenu prints CONFIGURATION, GAMELEVEL, AUDIO OUT and KEY SELECT labels
